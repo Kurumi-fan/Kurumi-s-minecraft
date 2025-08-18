@@ -41,7 +41,7 @@ Designed for everyone — from casual players to experienced server admins.
 ### 🔐 Key System (NEW)
 To prevent abuse and unauthorized repackaging, a key system has been added.  
 You can obtain the current key in two ways:
-- Join the [Discord server](https://discord.gg/5KKw8EZcMK) and check the **#projects** channel
+- Join the [Discord server](https://discord.gg/5KKw8EZcMK) and check the `#key` channel
 - Or DM the Discord bot with `!key` to receive it privately
 
 ### 🛰️ Auto-Update Support
