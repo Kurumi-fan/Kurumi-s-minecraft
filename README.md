@@ -7,20 +7,15 @@ Designed for everyone — from casual players to experienced server admins.
 
 ---
 
-## 🚀 Features (v1.0.1)
+## 🚀 Features (v1.0.4)
 
 ### 🖥️ Server Page
 - Start, Stop, and Restart your server with a single click
 - Console output log viewer
 - Text input for sending commands directly to the Minecraft server
-- Supports **Vanilla**, **Paper**, **Fabric**, and now **Custom** servers
+- Supports **Vanilla**, **Paper**, **Fabric**, and **Custom** servers
 - Automatically downloads the correct server `.jar` for selected type & version
-- Use custom local `.jar` files or URLs via the new **Custom** option
-
-### 🔧 Version Improvements
-- ✅ Fixed issues with **Vanilla** server generation (now fully compatible with all versions)
-- ✅ **Fabric** support fixed (previously non-functional versions now working)
-- 🆕 **Custom server support** — use your own `.jar` or download from a direct URL
+- Use custom local `.jar` files or URLs via the **Custom** option
 
 ### 📦 Plugins / Mods Page
 - Organize mods and plugins
@@ -36,13 +31,15 @@ Designed for everyone — from casual players to experienced server admins.
 - Choose server type (Vanilla, Fabric, Paper, Custom) and Minecraft version
 - Configure name, location, and performance mode for each profile
 - Performance Mode reduces background animation for lower CPU usage
-- All configurations saved in local `.json` files
+- All configurations saved in local `.json` files under:
 
-### 🔐 Key System (NEW)
-To prevent abuse and unauthorized repackaging, a key system has been added.  
-You can obtain the current key in two ways:
-- Join the [Discord server](https://discord.gg/5KKw8EZcMK) and check the `#key` channel
-- Or DM the Discord bot with `!key` to receive it privately
+C:\Users<user>\AppData\Roaming\KurumiProjects
+
+### 🌐 Online Availability Check (New since v1.0.4)
+- On startup, the app checks if the official GitHub repository is available.
+- If unreachable, the program shows:  
+  `"Program currently offline: repository not reachable."`  
+- Replaces the old **Key System** from earlier versions.
 
 ### 🛰️ Auto-Update Support
 - On launch, the app checks for updates from GitHub
@@ -57,7 +54,7 @@ You can obtain the current key in two ways:
 - **TikTok:** [@kurumi.fan](https://www.tiktok.com/@kurumi.fan)
 - **GitHub:** [Kurumi-s-minecraft](https://github.com/Kurumi-fan/Kurumi-s-minecraft)
 - **About:** App overview, how-to-use, bug reporting, suggestions
-- 🆕 **Other Projects:** Explore related tools:
+- **Other Projects:** Explore related tools:
   - [Kurumi's Autoclicker](https://github.com/Kurumi-fan/Kurumi-s-autoclicker)
   - [Kurumi's Crosshair](https://github.com/Kurumi-fan/Kurumi-s-Crosshair)
 
